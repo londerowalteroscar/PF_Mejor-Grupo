@@ -94,6 +94,38 @@ Se utilizará **Scrum** como metodología ágil para asegurar una entrega eficie
    - Realizan análisis exploratorio de datos (EDA) y crean visualizaciones en Amazon QuickSight.
    - Generan informes y presentaciones basados en los análisis.
 
+### KPI’s
+
+1. **Tiempo promedio de vacancia de inmuebles**
+   - **Categoría:** Indicador de ocupación
+   - **Fuente de datos:** Datos históricos del estado de California y base de datos interna.
+   - **Descripción:** Evalúa la eficiencia y rentabilidad de una propiedad mediante el tiempo que permanece vacante.
+   - **Meta:** Mantenerse por debajo del promedio de vacancia general semestral del estado de California.
+   - **Cálculo:** 
+     \[
+     \text{TPV (Tiempo promedio de vacancia)} = \frac{\text{Duración de periodos de vacancia}}{\text{Número total de propiedades evaluadas}}
+     \]
+
+2. **Índice de renovación de contratos (IRC)**
+   - **Categoría:** Indicador de gestión
+   - **Fuente de datos:** Base de datos interna de nuestro sistema y encuestas de satisfacción a inquilinos.
+   - **Descripción:** Mide la proporción de contratos de arrendamiento que se renuevan en un período determinado.
+   - **Meta:** Mantenerse al menos un 10% por encima del IRC promedio anual del estado de California.
+   - **Cálculo:** 
+     \[
+     \text{Índice de renovación de contratos} = \frac{\text{N contratos renovados}}{\text{N total de contratos}} \times 100
+     \]
+
+3. **Índice de expectativa satisfecha (IES) del inquilino**
+   - **Categoría:** Indicador de satisfacción del inquilino
+   - **Fuente de datos:** Encuesta de satisfacción de inquilinos al finalizar sus contratos.
+   - **Descripción:** Refleja el grado en que el sistema de recomendación cumple con las expectativas de los usuarios.
+   - **Meta:** Mantenerse por encima de los 7 puntos y tener como máximo una disminución de -10% respecto al año anterior.
+   - **Cálculo:** 
+     \[
+     \text{IES} = \frac{\text{Puntuaciones de satisfacción de los inquilinos}}{\text{Número total de puntuaciones de satisfacción de los inquilinos}}
+     \]
+
 ### Cronograma General - Diagrama de Gantt
 
 | Fase                      | Duración  | Semana 1 | Semana 2 | Semana 3 | Semana 4 | Semana 5 | Semana 6 | Semana 7 | Semana 8 | Semana 9 | Semana 10 |
