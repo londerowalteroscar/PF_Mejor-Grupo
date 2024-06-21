@@ -19,8 +19,9 @@
     - Función: Almacenamiento y análisis de datos estructurados.
   - **Amazon SageMaker:**
     - Función: Construir, entrenar y desplegar modelos de machine learning.
-  - **Amazon QuickSight:**
+  - **Looker Studio:**
     - Función: Visualización y creación de dashboards interactivos.
+
 
 
 ---
