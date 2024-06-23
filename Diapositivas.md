@@ -12,7 +12,7 @@
   - **Pandas, NumPy, Scikit-Learn:**
     - Función: Análisis y modelado de datos.
 
-- **Tecnologías en la Nube (AWS):**
+- **Tecnologías en la Nube:**
   - **Amazon S3:**
     - Función: Almacenamiento de datos sin procesar y resultados procesados.
   - **Amazon Redshift:**
